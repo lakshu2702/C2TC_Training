@@ -2,12 +2,9 @@ package oppsDemo;
 
 public class EncapDemo {
 
-	// Data Members / variables
 	private int serialNum;
 	private String name;
 	private int age;
-	
-	// Getters and Setters methods
 	public int getSerialNum() {
 		return serialNum;
 	}
@@ -27,10 +24,8 @@ public class EncapDemo {
 		this.age = age;
 	}
 	
-	// Object class method - to returns string of the object
-	@Override
-	public String toString() {
-		return "EncapDemo [Serial Number = " + serialNum + ", name= " + name + ", Age = " + age + "]";
+	public String toString(){
+		return "EncapDemo [Serial Number = "+serialNum+", name = " +name+", Age = "+age+"}";
 	}
 
 }
