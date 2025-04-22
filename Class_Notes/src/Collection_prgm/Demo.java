@@ -1,7 +1,11 @@
-package comparator;
+package Collection_prgm;
 
 import java.util.ArrayList;
 import java.util.Collections;
+
+import comparator.SortName;
+import comparator.SortRoll;
+import comparator.Student;
 
 public class Demo {
 
